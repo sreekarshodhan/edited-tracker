@@ -1,0 +1,172 @@
+.hero{
+        height: 70%;
+        width: 50%;
+        background-image:linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
+        background-position: center;
+        position: absolute;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.6);
+        box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+        border-radius: 8px;
+        left: 350px;
+        margin: 6% auto;
+
+}
+
+.form0{
+        width:90%;
+        height:90%;
+        padding: 25px;
+        position: relative;
+        transition: 0.5s; 
+        margin: 100px;
+}
+.formbox{
+        margin: 6% auto;
+        width:100%;
+        height:100%;
+        margin: 0;
+        padding: 5px;
+        position: relative;  
+        background: #ffffff;    
+        overflow: hidden;
+}
+
+.form1{
+        left: 500px;
+        width: auto;
+        height: auto;
+        padding: 5px;
+        position: relative;
+        transition: 0.5s; 
+        margin: 50px;
+}
+
+/*.form1{
+        background: rgba(255, 255, 255, 0.6);
+        width:500px;
+        height:500px;
+        border-radius: 8px;
+        padding: 5px 25px 25px 25px;
+        margin:  150px auto 25px auto;
+        color: #414141;
+        position: absolute;  
+        transition: 0.5s;
+        overflow: hidden;
+}*/
+
+
+.input-group{
+        transition: 0.5s;
+        background: transparent;
+}
+.input-field{
+        outline:none;
+        background: transparent;
+}
+
+.submit{
+        width: 100%;
+}
+
+.icon{
+        margin: 0px auto 7px auto;  
+        padding-right: 3px;
+}
+.button-box{
+        width: 420px;
+        position: relative;
+        box-shadow: 0 0 20px 9px #eec0c6;
+        border-radius: 30px;
+        margin: 20px auto;
+}
+.toggle-btn0{
+        cursor: pointer;
+        padding: 10px 30px;
+        background: transparent;
+        border:0;
+        outline: none;
+        position: relative;
+}
+.toggle-btn1{
+        cursor: pointer;
+        padding: 10px 30px 10px 175px;
+        background: transparent;
+        border:0;
+        outline: none;
+        position: relative;
+}
+#colorbtn{
+        top:0;
+        left: 0;
+        position: absolute;
+        width: 210px;
+        height: 100%;
+        background: linear-gradient( 103.3deg,  rgba(252,225,208,1) 10%, rgba(255,173,214,1) 55.7%);/* rgba(162,186,245,1) 81.8% );*/
+        border-radius: 30px;
+        transition: 0.5s;
+}
+
+/*#colorbtn1{
+        position: absolute;
+        width: 210px;
+        height: 100%;
+        left:350px;
+        top:0px;
+        background: linear-gradient( 103.3deg,  rgba(255,173,214,1) 25%, rgba(162,186,245,1) 80% );/* rgba(162,186,245,1) 81.8% );
+        border-radius: 100px;
+        transition: 0.5s;
+}*/
+
+.remember{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+}
+
+.elabel{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+}
+.plabel{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.ulabel{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+}
+.fpwd{
+        padding-left: 200px;
+        text-align: left;
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+}
+body{
+        /*background-image: url(https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVhY2glMjBjb2xvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);*/
+        /*background-color: #cccccc; Used if the image is unavailable */
+        /*height: 650px; /* You must set a specified height */ 
+        /*background-position: center; /* Center the image */ 
+        /*height: 620px;
+        background-color: #cccccc;
+        background: linear-gradient(#efd5ff, #626ad8);
+        background: linear-gradient(#d53369, #daae51);
+        background: linear-gradient(#e3ffe7 0%, #d9e7ff 100%);
+        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+        background: linear-gradient(#efd5ff, #6168ca);
+        background: linear-gradient(45deg, #e3ffe7 0%, #d9e7ff 100%);
+        background: linear-gradient(120deg,#efd5ff, #6168ca);
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+        background-color: #eec0c6;
+        background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );*/
+        
+        background-image: url(https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVhY2glMjBjb2xvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+
+}
+
+
+#register{
+        left:1050px;
+}

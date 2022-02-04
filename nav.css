@@ -1,0 +1,67 @@
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f48670;
+    height: 60px;
+  }
+  
+  li {
+    float:right;
+    justify-content: space-around;
+    font-size:20px;
+    margin-left:30px; 
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: whitesmoke;
+  }
+.buttons{
+  margin-top: 500px;
+}
+canvas{
+    border: 2px solid;
+    height: 500px;
+    width: 800px;
+    position: relative;
+    align-items: center;
+    margin: 100px 20px 0px 75px;
+}
+
+.views{
+margin: 100px 10px 10px 10px;
+padding: 20px;
+float:left;
+height: 70px;
+width: 400px;
+}
+
+.graph{
+    float: left;
+}
+
+.inputbox{
+    float:left;
+    margin-top: 70px;
+    height: 400px;
+    width: 600px;
+    background-color: #a7bed3;
+}
+
+form{
+  margin: 15px;
+  padding: 1px;
+}
+#add{
+  border-radius: 10px;
+}
